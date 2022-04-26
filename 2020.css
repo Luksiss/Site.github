@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+@font-face {font-family: Myfirst ;
+src:url(ARCADECLASSIC.TTF)
+}
+
+@font-face {font-family: Vapor ;
+src: url(good\ times\ rg.otf);
+
+}
+
+
+
+body {background-image: url(https://wallpaperaccess.com/full/1155052.jpg) ; background-repeat: no-repeat; margin: auto; }
+
+header {background-image: url(https://wallpapercave.com/wp/EpnMhl1.png);
+background-repeat: no-repeat; background-position: center; border: solid rgba(61, 60, 60, 0.185);width: 400px ; margin: auto;
+}
+
+h1 {text-align: center; font-family: Vapor;}
+
+h2 { text-align: center;}
+
+
+a { text-decoration: none; color: rgb(0, 0, 0)  }
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: vapor;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 
+
+
+
+
+  
+  ul {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {display: inline-block;}
+    ul li:hover {background: rgba(85, 85, 85, 0);}
+    ul li:hover ul {display: block;}
+    ul li ul {
+      position:center;
+      width: 320px;
+      display: none;
+    }
+    ul li ul li { 
+      background: rgb(255, 255, 255); 
+      display: block; 
+    }
+
+    ul li ul li a {display:block !important;} 
+    ul li ul li:hover {background: rgb(102, 102, 102);}
+
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        }
+        
+        .div1 { grid-area: 2 / 3 / 3 / 4; font-size:larger; font-family: vapor;   }
+        .div2 { grid-area: 2 / 4 / 3 / 5; font-family: vapor; font-size: smaller; }
+        .div3 { grid-area: 1 / 1 / 4 / 7; background-color: rgba(95, 95, 95, 0.418); width: auto; height: 400px;  }
+
+
+        .parent2 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 6px;
+            grid-row-gap: 6px;
+            }
+            .div10 { grid-area: 1 / 1 / 3 / 6; background-color: #333; height:350px; }
+            .div4 { grid-area: 1 / 2 / 2 / 2; padding: 5px;font-family: vapor; color: rgb(255, 255, 255); text-align: center; }
+            .div5 { grid-area: 1 / 4 / 2 / 5; padding: 5px;}
+            .div6 { grid-area: 2 / 2 / 3 / 3; font-family: vapor;color: rgb(255, 255, 255); text-align: center;}
+            .div7 { grid-area: 2 / 4 / 3 / 5;padding: 5px; font-family: vapor;color: rgb(255, 255, 255); text-align: center;}
+         
+
+            footer {text-align: center; font-family: vapor;}
+
+            
+     
+
+ 
+                

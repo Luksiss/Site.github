@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@font-face {font-family: Myfirst ;
+    src:url(ARCADECLASSIC.TTF)}
+
+body {background-color: black;}
+
+p {text-align: center; color: white;font-family: MyFirst; }
+
+a {text-align: center; color: white;font-family: MyFirst; }
+
+.div {
+	perspective: 300px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25vh;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background: rgba(128, 128, 128, 0);
+	transform: rotateY(45deg);
+	animation: rotateAnimation 4s linear infinite;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(405deg);}
+}
